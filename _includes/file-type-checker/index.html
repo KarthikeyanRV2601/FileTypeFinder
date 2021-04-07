@@ -1,0 +1,49 @@
+<div class="TypeChecker">
+    
+    <div class="Landing">
+        <div class="innerContent">
+                
+            <div class="InputBox">
+
+                <div class="Button">
+                    
+                    <label for="file-selector" class="InputButton">CHOOSE FILE</label>
+                    <input id="file-selector" style="visibility:hidden;" type="file" >
+                </div>
+            </div>
+            <h2 class="dropinfo">or drop your file here</h2>
+
+        </div>
+        
+    </div>
+    <div class="Workspace">
+        <div class="Details">
+            <div class="detail">
+                <label>File extension while upload</label>
+                <p id="FileExtBefore"></p>
+            </div>
+            <div class="detail">
+                <label>File extension after checking</label>
+                <p id="FileExtAfter"></p>
+                <img class="QuestionIcon" src="./media/question-mark.svg"/>
+                <div class="MoreTypeDetails">
+                   
+                </div>
+            </div>
+            <div class="detail">
+                <label>File type</label>
+                <p id="FileType"></p>
+            </div>
+            <div class="detail">
+                <label>File name</label>
+                <p id="FileName"></p>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    <div id="files"></div>
+    <script src="./JS/App.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</div>

@@ -1,0 +1,24 @@
+{   "navbarBrandText":"",
+    "navbarBrandLogo": "/assets/logo.svg",
+    
+    "megaMenu": {
+      "nav-link-name": "Tools",
+      "dropdown": [{
+       "categoryName":"safecombinepdf",
+       "links": [
+        {
+          "iconSrc": "/media/file.svg",
+          "name": "File type checker",
+          "url":"/",
+          "hover": "blue"
+        }
+      ]
+    }
+      ]},
+    "navItems": [
+      {
+        "name": "Blog",
+        "url": "/blog"
+      }
+    ]
+}

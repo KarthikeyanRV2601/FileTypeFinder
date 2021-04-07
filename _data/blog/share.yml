@@ -1,0 +1,12 @@
+label: 'Share'
+
+platforms:
+  - type: Twitter
+    icon: 'fab fa-twitter'
+    link: 'https://twitter.com/intent/tweet?url=URL'
+  - type: Facebook
+    icon: 'fab fa-facebook-square'
+    link: 'https://www.facebook.com/sharer/sharer.php?u=URL'
+  - type: Linkedin
+    icon: 'fab fa-linkedin'
+    link: 'https://www.linkedin.com/sharing/share-offsite/?url=URL'

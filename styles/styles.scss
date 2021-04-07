@@ -1,0 +1,167 @@
+@mixin flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin Shadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+@mixin flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.TypeChecker{
+    width: 100%;
+    height: 300px;
+    @include flexColumn();
+    .Landing{
+        width: 100%;
+        height: 300px;
+        @include flexColumn();
+        // display: none;
+        .innerContent{
+            width: 100%;
+            height: 300px;
+            border: 1px dashed #353535b0;
+            @include flexColumn();
+            justify-content: space-around;
+            
+        // border-radius: 10px;
+        // @include Shadow();
+        
+        .dropinfo{
+            position: absolute;
+            font-size: 14px;
+            font-weight: 100;
+            color: rgba(255, 255, 255, 0.993);
+            bottom: 20%;
+        }
+        
+    
+        .InputBox{
+        user-select: none;
+        width:200px;
+        height: 50px;
+        @include flexRow();
+        background: #18dcff;
+        border-radius: 6px;
+        justify-content: space-around;
+        align-self: center;
+        @include Shadow();
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        z-index: 1;
+        
+        .Button{
+            width: 100%;
+            height: 100%;
+            
+        .InputButton{
+            width:200px;
+            height: 50px;
+            text-decoration: none;
+            @include flexColumn();
+            background: white;
+            font-size: 18px;
+            color: #353535;
+            transition: 0.3s;
+            &:hover{
+                border: 1px solid white;
+                background: #18dcff;
+                color: white;
+                cursor: pointer;
+            }
+
+        }
+    }
+    
+    }
+    
+    .Information
+    {
+        margin-top: 5%;
+        color:white;
+        font-size: 16px;
+        // display: none;
+    }
+    
+        }
+        
+    
+    }
+    .Workspace{
+        width: 100%;
+        height: 300px;
+        @include flexColumn();
+        display: none;
+       
+    .Details{
+        width: 80%;
+        height: fit-content;
+        padding: 2%;
+        @include flexColumn();
+        position: relative;
+        justify-content: space-around;
+        background: white;
+        padding-left: 5%;
+        border-radius: 10px;
+        .detail{
+            width: 100%;
+            height: 50px;
+            @include flexRow();
+            
+            
+            label{
+                color: #353535;
+                width: 30%;
+                height: fit-content;
+                font-weight: lighter;
+                font-size: 16px;
+                text-align: left;
+
+            }
+            p{
+                color: #353535;
+                width: 70%;
+                padding-left: 2%;
+                height: fit-content;
+                font-size: 14px;
+                text-align: left;
+            }
+        }
+        .QuestionIcon{
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            cursor: pointer;
+            position: absolute;
+            right: 2%;
+            
+        }
+        .MoreTypeDetails{
+            width: fit-content;
+            padding: 5%;
+            height: fit-content;
+            position: absolute;
+            // top: 75%;
+            right: 5%;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            display: none;
+            background: white;
+            transition: 0.2s;
+            
+        }
+        .QuestionIcon:hover +.MoreTypeDetails
+        {
+            display: inherit;
+        }
+    }
+    }
+}

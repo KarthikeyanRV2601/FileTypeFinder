@@ -1,0 +1,20 @@
+{
+    "Language":"English",
+    "htmlLangAtt":"en",
+      "h1":"About us",
+      "h2":"Welcome to safecombinepdf",
+      "TITLE":"List of all Javascript PDF libraries for use in your project",
+      "META":"See collection of all Javascript PDF libraries, filter by license, modified date, languages, and select best for your usecase.",
+      "paragraph" : "Company is registered under the provisions of the Limited Liability Partnership Act 2008, having its registered office at “Mohan Nagar, Tiwari Gali No 3, Pilkhuwa, Ghaziabad, Uttar Pradesh – 245 304, INDIA” represented by its Directors, hereinafter referred to as the “FIRM” (where such expression shall, unless repugnant to the context thereof, be deemed to include its respective legal heirs, representatives, administrators, permitted successors and assigns).Company is registered under the provisions of the Limited Liability Partnership Act 2008, having its registered office at “Mohan Nagar, Tiwari Gali No 3, Pilkhuwa, Ghaziabad, Uttar Pradesh – 245 304, INDIA” represented by its Directors, hereinafter referred to as the “FIRM” (where such expression shall, unless repugnant to the context thereof, be deemed to include its respective legal heirs, representatives, administrators, permitted successors and assigns).Company is registered under the provisions of the Limited Liability Partnership Act 2008, having its registered office at “Mohan Nagar, Tiwari Gali No 3, Pilkhuwa, Ghaziabad, Uttar Pradesh – 245 304, INDIA” represented by its Directors, hereinafter referred to as the “FIRM” (where such expression shall, unless repugnant to the context thereof, be deemed to include its respective legal heirs, representatives, administrators, permitted successors and assigns).Company is registered under the provisions of the Limited Liability Partnership Act 2008, having its registered office at “Mohan Nagar, Tiwari Gali No 3, Pilkhuwa, Ghaziabad, Uttar Pradesh – 245 304, INDIA” represented by its Directors, hereinafter referred to as the “FIRM” (where such expression shall, unless repugnant to the context thereof, be deemed to include its respective legal heirs, representatives, administrators, permitted successors and assigns).Company is registered under the provisions of the Limited Liability Partnership Act 2008, having its registered office at “Mohan Nagar, Tiwari Gali No 3, Pilkhuwa, Ghaziabad, Uttar Pradesh – 245 304, INDIA” represented by its Directors, hereinafter referred to as the “FIRM” (where such expression shall, unless repugnant to the context thereof, be deemed to include its respective legal heirs, representatives, administrators, permitted successors and assigns).",
+      "StructuredDataWebsite": {
+        "@type": "WebSite",
+        "name": "appscms",
+        "alternateName": "appscms",
+        "url": "www.appscms.com"
+      },
+      "StructuredDataorganization": {
+          "@type": "Organization",
+          "url": "http://www.appscms.com",
+          "logo": "http://www.example.com/images/logo.png" 
+        }
+   }

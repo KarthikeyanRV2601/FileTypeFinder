@@ -1,0 +1,30 @@
+{
+    "h1":"We make PDF easy",
+    "h2":"All-in-one easy-to-use online PDF tools",
+    "title":"List of all Android alarm libraries for use in your project",
+    "meta":"See collection of all Android alarm libraries, filter by license, modified date, languages, and select best for your usecase.",
+    "features":[
+       {
+          "name":"Compress PDF",
+          "description":"Reduce the size of your PDF without losing quality",
+          "color":"blue",
+          "icon": "",
+          "url":"/compress-pdf"
+          
+       },
+       {
+        "name":"Delete PDF",
+        "description":"Reduce the size of your PDF without losing quality",
+        "color":"blue",
+        "icon": ""
+        
+      },
+      {
+        "name":"Split PDF",
+        "description":"Reduce the size of your PDF without losing quality",
+        "color":"blue",
+        "icon": ""
+        
+      }
+    ]
+ }

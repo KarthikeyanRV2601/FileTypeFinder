@@ -1,0 +1,82 @@
+{ 
+    "H1":"File type finder",
+    "H2":"Find your file type for free online",
+    "TITLE":"File type finder - Find your file type for free",
+    "META": "Easiest way to find ypur file types. Start by uploading your file.",
+    "LABEL": "File type finder",
+    "BREADCRUMB_LABEL": "File type finder",
+    "color": "#18dcff",
+    "height": "300px",
+    "width":"100%",
+    "img":"/media/file.svg",
+    "imgwidth":"30px",
+    "imgheight":"30px",
+    "imgalt":"altvalue",
+
+    "TEXTUAL_CONTENT": [
+      {
+      "priority": 1,
+      "logoUrl": "/assets/lightbulb.svg",
+      "header": "Simple to use",
+      "content": "File type finding process elegant and straightforward"
+      },
+      {
+      "priority": 1,
+      "logoUrl": "/assets/target.svg",
+      "header": "Accurate results",
+      "content": "The results are accurate and hence completely satisfy user needs"
+      },
+      {
+      "priority": 1,
+      "logoUrl": "/assets/cross.svg",
+      "header": "Cross platform",
+      "content": "You can use this application from now on any operating system, like Windows/Mac/Linux/Android/iPhone."
+      },
+      {
+      "priority": 1,
+      "logoUrl": "/assets/shield.svg",
+      "header": "Secure and trustworthy",
+      "content": "There is no server involved and hence your data and files are safe"
+      },
+      {
+      "priority": 1,
+      "logoUrl": "/assets/fast.svg",
+      "header": "Fast and efficient",
+      "content": "The site processes your file really fast and efficient.You can get your job done in no time"
+      },
+      {
+      "priority": 1,
+      "logoUrl": "/assets/cloud_new.svg",
+      "header": "No files are uploaded",
+      "content": "The application works completely on your browser without invlolving any server.Hence your files are safe"
+      }
+    ],
+    "HOW_TO_CONTENT": {
+      "logoImageUrl": "./media/idea.svg",
+      "heading": "How to find your file type",
+      "steps": [
+      "Upload your file",
+      "Our application automatically gives you the result",
+      "Hurray! enjoy our service"
+      ]
+    },
+    "FAQ": [
+      {
+      "question": "How much time does it takes to find my file type?",
+      "answer": "Our application gives you instant results."
+      },
+      {
+      "question": "Can I rely on this application to get my job done?",
+      "answer": "Yes Ofcourse! Our application never fails to impress you by getting your job done in no time"
+      },
+      {
+      "question": "What will happen if I refresh the browser?",
+      "answer": "As we give first priority to your files security, they are not uploaded to server. So refreshing requires re-uploading of file"
+      },
+      {
+      "question": "What will happen to my settings in application if I close the browser tab?",
+      "answer": "Your settings and uploaded files will no longer be there."
+      }
+      ]
+    }
+    
