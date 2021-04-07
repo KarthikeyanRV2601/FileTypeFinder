@@ -153,9 +153,16 @@
             right: 5%;
             box-shadow: 0 0 5px rgba(0,0,0,0.2);
             border-radius: 10px;
+            @include flexColumn();
             display: none;
             background: white;
             transition: 0.2s;
+            justify-content: space-around;
+            #extensionText,#mimeText{
+                width: 100%;
+                height: fit-content;
+                text-align: left;
+            }
             
         }
         .QuestionIcon:hover +.MoreTypeDetails
@@ -164,4 +171,8 @@
         }
     }
     }
+}
+.logo-height,.feature-card-img{
+    width: 30px;
+    height: 30px;
 }

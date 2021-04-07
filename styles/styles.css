@@ -245,13 +245,42 @@
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   display: none;
   background: white;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.TypeChecker .Workspace .Details .MoreTypeDetails #extensionText, .TypeChecker .Workspace .Details .MoreTypeDetails #mimeText {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: left;
 }
 
 .TypeChecker .Workspace .Details .QuestionIcon:hover + .MoreTypeDetails {
   display: inherit;
+}
+
+.logo-height, .feature-card-img {
+  width: 30px;
+  height: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
