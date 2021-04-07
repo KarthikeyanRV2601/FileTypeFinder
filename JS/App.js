@@ -1,5 +1,6 @@
 window.onload=()=>{
     var tag = document.createElement("script");
-    tag.src = "./JS/MainFunctions.js";
+    tag.src = "./JS/Functions.js";
+    tag.defer=true
     document.getElementsByTagName("head")[0].appendChild(tag);
 }

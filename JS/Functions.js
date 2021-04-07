@@ -1,5 +1,6 @@
 var tag = document.createElement("script");
 tag.src = "./JS/data.js";
+tag.defer=true
 document.getElementsByTagName("head")[0].appendChild(tag);    
 var uploadedFile;
 var PossibleExtensions=[];
@@ -86,7 +87,6 @@ var Detect_Actual_FileType=()=>{
     var outputFileextensionAfter=document.querySelector('#FileExtAfter')
     var extnsnText=document.querySelector('#extensionText')
     var mimeText=document.querySelector('#mimeText')
-
     var outputFileType=document.querySelector('#FileType')
     let extensionString=null;
     let mimeString=null;
